@@ -1,0 +1,18 @@
+{
+  "name": "openai-api-demo",
+  "version": "1.0.0",
+  "description": "A simple demo of an AI-powered Node program using OpenAI.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=DEP0040 --env-file=.env index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Blake <daniel@danielblake.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.80.1"
+  }
+}
